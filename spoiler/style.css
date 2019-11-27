@@ -1,0 +1,18 @@
+* {
+    transition: opacity 1s;
+}
+
+.spoiler-container .spoiler-content{
+    display:inline-block;
+    width: 0;
+    height: 0;
+    opacity: 0;
+    overflow: hidden;
+}
+
+.spoiler-container .spoiler-content.visible{
+    display:inline;
+    width:auto;
+    height: auto;
+    opacity: 1;
+}
