@@ -3,16 +3,11 @@
 }
 
 .tab-content{
-    display:inline-block;
-    height: 0;
-    width: 0;
-    opacity: 0;
-    overflow: hidden;
+    display:none;
 }
 
 .tab-content.active{
-    display:inline;
-    opacity: 1;
+    display:block;
 }
 
 .tabs .active a , .tabs .active{
