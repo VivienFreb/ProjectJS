@@ -16,5 +16,16 @@
 }
 
 .tabs .active a , .tabs .active{
-    color: orangered;
+    background-color: darkorange;
+}
+
+ul li{
+    display: inline;
+    border: darkred solid 1px;
+    background-color: orangered;
+}
+
+ul li a{
+    color: white;
+    text-decoration: none;
 }

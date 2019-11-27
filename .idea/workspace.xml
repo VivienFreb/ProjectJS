@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44837ff8-3d91-49f8-9bd7-ebbfeb2146c7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/onglet/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onglet/tabs.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onglet/tabs.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onglet/tabs.css" beforeDir="false" afterPath="$PROJECT_DIR$/onglet/tabs.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +49,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1574865026587</updated>
-      <workItem from="1574865041059" duration="8082000" />
+      <workItem from="1574865041059" duration="8570000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1574865489736</created>
@@ -81,7 +79,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574868173040</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Système d'onglets qui affiche son contenu lorsqu'il est selectionné.">
+      <created>1574874606921</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1574874606921</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,6 +98,7 @@
     <MESSAGE value="Amélioration: Permet de cacher un élément en lui ajoutant la classe &quot;spoiler&quot;" />
     <MESSAGE value="Amélioration: Cacher un élément en lui ajoutant la classe &quot;spoiler&quot;" />
     <MESSAGE value="Style: ajout de quelques styles sur le texte et les boutons." />
-    <option name="LAST_COMMIT_MESSAGE" value="Style: ajout de quelques styles sur le texte et les boutons." />
+    <MESSAGE value="Système d'onglets qui affiche son contenu lorsqu'il est selectionné." />
+    <option name="LAST_COMMIT_MESSAGE" value="Système d'onglets qui affiche son contenu lorsqu'il est selectionné." />
   </component>
 </project>
