@@ -1,0 +1,20 @@
+* {
+    transition: opacity 1s;
+}
+
+.tab-content{
+    display:inline-block;
+    height: 0;
+    width: 0;
+    opacity: 0;
+    overflow: hidden;
+}
+
+.tab-content.active{
+    display:inline;
+    opacity: 1;
+}
+
+.tabs .active a , .tabs .active{
+    color: orangered;
+}
