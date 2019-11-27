@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="44837ff8-3d91-49f8-9bd7-ebbfeb2146c7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spoiler/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spoiler/spoiler.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spoiler/style.css" afterDir="false" />
+    <list default="true" id="44837ff8-3d91-49f8-9bd7-ebbfeb2146c7" name="Default Changelist" comment="Version simpliste du &quot;spoiler&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spoiler/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/spoiler/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spoiler/spoiler.js" beforeDir="false" afterPath="$PROJECT_DIR$/spoiler/spoiler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spoiler/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/spoiler/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +51,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1574865026587</updated>
-      <workItem from="1574865041059" duration="1455000" />
+      <workItem from="1574865041059" duration="2733000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1574865489736</created>
@@ -61,7 +60,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574865489736</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Version simpliste du &quot;spoiler&quot;">
+      <created>1574866535253</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1574866535253</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -69,6 +75,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
+    <MESSAGE value="Version simpliste du &quot;spoiler&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version simpliste du &quot;spoiler&quot;" />
   </component>
 </project>

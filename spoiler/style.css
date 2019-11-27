@@ -2,7 +2,12 @@
     transition: opacity 1s;
 }
 
-.spoiler-container .spoiler-content{
+body{
+    font-size: 22px;
+    font-family: Century, serif;
+}
+
+.spoiler-content{
     display:inline-block;
     width: 0;
     height: 0;
@@ -10,7 +15,7 @@
     overflow: hidden;
 }
 
-.spoiler-container .spoiler-content.visible{
+.spoiler-content.visible{
     display:inline;
     width:auto;
     height: auto;
