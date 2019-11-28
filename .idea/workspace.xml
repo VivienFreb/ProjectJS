@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="44837ff8-3d91-49f8-9bd7-ebbfeb2146c7" name="Default Changelist" comment="">
+    <list default="true" id="44837ff8-3d91-49f8-9bd7-ebbfeb2146c7" name="Default Changelist" comment="Limitation sur la sidebar pour qu'elle s'arrête à la fin de sa div">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fixed/fixed.css" beforeDir="false" afterPath="$PROJECT_DIR$/fixed/fixed.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fixed/fixed.js" beforeDir="false" afterPath="$PROJECT_DIR$/fixed/fixed.js" afterDir="false" />
@@ -52,7 +52,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1574865026587</updated>
-      <workItem from="1574865041059" duration="27471000" />
+      <workItem from="1574865041059" duration="30749000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1574865489736</created>
@@ -124,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574954605594</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Limitation sur la sidebar pour qu'elle s'arrête à la fin de sa div">
+      <created>1574959384408</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1574959384408</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,6 +149,7 @@
     <MESSAGE value="Navbar qui se fixe lors d'un scroll vers le bas" />
     <MESSAGE value="Ajout d'une sidebar qui se fige pour être visible lors d'un scroll" />
     <MESSAGE value="Modification styles" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modification styles" />
+    <MESSAGE value="Limitation sur la sidebar pour qu'elle s'arrête à la fin de sa div" />
+    <option name="LAST_COMMIT_MESSAGE" value="Limitation sur la sidebar pour qu'elle s'arrête à la fin de sa div" />
   </component>
 </project>
