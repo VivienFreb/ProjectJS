@@ -4,6 +4,7 @@
     <list default="true" id="44837ff8-3d91-49f8-9bd7-ebbfeb2146c7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fixed/fixed.css" beforeDir="false" afterPath="$PROJECT_DIR$/fixed/fixed.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fixed/fixed.js" beforeDir="false" afterPath="$PROJECT_DIR$/fixed/fixed.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fixed/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/fixed/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,6 +28,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -50,7 +52,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1574865026587</updated>
-      <workItem from="1574865041059" duration="22563000" />
+      <workItem from="1574865041059" duration="27471000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1574865489736</created>
@@ -115,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574952491778</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Modification styles">
+      <created>1574954605594</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1574954605594</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,6 +141,7 @@
     <MESSAGE value="Prise en compte de l'ancre déjà présente dans l'url +re-style" />
     <MESSAGE value="Navbar qui se fixe lors d'un scroll vers le bas" />
     <MESSAGE value="Ajout d'une sidebar qui se fige pour être visible lors d'un scroll" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajout d'une sidebar qui se fige pour être visible lors d'un scroll" />
+    <MESSAGE value="Modification styles" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modification styles" />
   </component>
 </project>

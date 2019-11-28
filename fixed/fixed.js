@@ -11,6 +11,14 @@
         (function (element) {
             var widthAndPos = element.getBoundingClientRect()
             var offset = parseInt(element.getAttribute('data-offset') || 0, 10)
+            if (element.getAttribute('data-constraint')) {
+                var constraint = document.querySelector(element.getAttribute('data-constraint'))
+            } else {
+                var constraint = document.body;
+            }
+
+            var constraintReact = constraint.getBoundingClientRect()
+            var constraintBottom = constraintReact.top + scrollY() + constraintReact.height - offset - widthAndPos.height
 
             var top = widthAndPos.top + scrollY()
             var width = widthAndPos.width
@@ -21,16 +29,23 @@
 
 
             var onScroll = function () {
-                console.log("scroll")
-                var hasFixed = element.classList.contains('fixed')
-                if (scrollY() > top - offset && !hasFixed) {
+                if(scrollY() > constraintBottom && element.style.position !== 'absolute'){
+                    element.style.position = 'absolute'
+                    element.style.bottom = '0'
+                    element.style.top = 'auto'
+                } else if (scrollY() > top - offset && scrollY() < constraintBottom &&  element.style.position !== 'fixed') {
                     element.classList.add('fixed')
+                    element.style.position = 'fixed'
                     element.style.top = offset + "px"
+                    element.style.bottom = 'auto'
                     element.style.width = width + "px"
                     element.parentNode.insertBefore(divTop, element)
-                } else if (scrollY() < top - offset && hasFixed) {
+                } else if (scrollY() < top - offset && element.style.position !== 'static') {
                     element.classList.remove('fixed')
-                    element.parentNode.removeChild(divTop);
+                    element.style.position = 'static'
+                    if(element.parentNode.contains(divTop)){
+                        element.parentNode.removeChild(divTop);
+                    }
                 }
             }
 
