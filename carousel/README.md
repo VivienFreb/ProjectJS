@@ -9,3 +9,6 @@ Une classe sera créée et celle-ci pourra être facilement appliquée et modifi
  - Option permettant d'accepter le défilement infini ou non (une boucle)
  - Affichage du carousel responsif
  - Possiblité de naviguer via clavier.
+ 
+ 
+> Vivien Frébourg

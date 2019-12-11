@@ -17,7 +17,8 @@ body {
     font-size: 25px;
     color: #fff;
     font-weight: 700;
-    margin-bottom: 25px
+    margin-bottom: 25px;
+    font-variant: petite-caps;
 }
 
 .item {
@@ -38,18 +39,18 @@ body {
     height: auto
 }
 
-.item__body {
+.item_body {
     padding: 25px
 }
 
-.item__title {
+.item_title {
     font-size: 24px;
     margin-bottom: 5px;
     font-weight: 700;
     color: #232323
 }
 
-.item__description {
+.item_description {
     color: #585858
 }
 
@@ -61,22 +62,22 @@ body {
     margin-bottom: 30px
 }
 
-.carousel__container {
-    transition: transform .3s;
+.carousel_container {
+    transition: transform 1s;
     transform: translateZ(0)
 }
 
-.carousel__container:after {
+.carousel_container:after {
     content: "";
     clear: both;
     display: table
 }
 
-.carousel__item {
+.carousel_item {
     float: left
 }
 
-.carousel__next,.carousel__prev {
+.carousel_next,.carousel_prev {
     position: absolute;
     width: 40px;
     height: 40px;
@@ -91,21 +92,21 @@ body {
     transition: transform .3s,opacity .3s
 }
 
-.carousel__next:hover,.carousel__prev:hover {
+.carousel_next:hover,.carousel_prev:hover {
     transform: scale(1.2)
 }
 
-.carousel__prev {
+.carousel_prev {
     background-image: url(../img/arrowleft.png);
     right: auto;
     left: -20px
 }
 
-.carousel__next--hidden,.carousel__prev--hidden {
+.carousel_next--hidden,.carousel_prev--hidden {
     opacity: 0
 }
 
-.carousel__pagination {
+.carousel_pagination {
     position: absolute;
     bottom: -20px;
     left: 0;
@@ -114,7 +115,7 @@ body {
     display: none
 }
 
-.carousel__pagination__button {
+.carousel_pagination_button {
     background-color: #fff;
     width: 10px;
     height: 10px;
@@ -126,12 +127,12 @@ body {
     cursor: pointer
 }
 
-.carousel__pagination__button--active,.carousel__pagination__button:hover {
+.carousel_pagination_button--active,.carousel_pagination_button:hover {
     transform: scale(1.4)
 }
 
 @media screen and (min-width: 800px) {
-    .carousel__pagination {
+    .carousel_pagination {
         display:block
     }
 }
