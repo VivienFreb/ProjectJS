@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="44837ff8-3d91-49f8-9bd7-ebbfeb2146c7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carousel/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/carousel/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/carousel/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/carousel/js/main.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,7 +60,7 @@
       <workItem from="1574865041059" duration="31981000" />
       <workItem from="1575555393290" duration="522000" />
       <workItem from="1575985377295" duration="4663000" />
-      <workItem from="1576077510159" duration="5396000" />
+      <workItem from="1576077510159" duration="5773000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1574865489736</created>
@@ -175,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576082476584</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Retour au premier élément si &quot;next&quot; au dernier élément et inversement.">
+      <created>1576083043649</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1576083043649</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,6 +218,7 @@
     <MESSAGE value="Ajout de la structure html/css ainsi que les images d'exemples" />
     <MESSAGE value="JS: Met les éléments dans un carousel en fonctions de l'option &quot;visible&quot;" />
     <MESSAGE value="Add: Flèches navigation et gestion des transitions entres éléments." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add: Flèches navigation et gestion des transitions entres éléments." />
+    <MESSAGE value="Retour au premier élément si &quot;next&quot; au dernier élément et inversement." />
+    <option name="LAST_COMMIT_MESSAGE" value="Retour au premier élément si &quot;next&quot; au dernier élément et inversement." />
   </component>
 </project>

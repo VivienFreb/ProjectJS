@@ -65,11 +65,11 @@ class Carousel {
         console.log('this.item.length' , this.items.length);
         if(index < 0){
             index = this.items.length - this.options.visible
-        }else if(index >= this.items.length){
+        }else if(index >= this.items.length || this.items[this.currentItem + this.options.visible] === undefined){
             index = 0;
         }
         let translateX = index * (-100 / this.items.length);
-        this.container.style.transform = 'translate3d(' + translateX + '%, 0, 0)' // Gère la partie changement d'images
+        this.container.style.transform = 'translate3d(' + translateX + '%, 0, 0)'; // Gère la partie changement d'images
         this.currentItem = index;
     }
 
@@ -87,7 +87,7 @@ class Carousel {
 
 document.addEventListener('DOMContentLoaded', function(){
     new Carousel(document.querySelector('#carousel0'), {
-        toScroll: 1,
+        toScroll: 2,
         visible: 3
     });
     new Carousel(document.querySelector('#carousel1'), {
