@@ -63,7 +63,7 @@ body {
 }
 
 .carousel_container {
-    transition: transform 1s;
+    transition: transform 1.2s;
     transform: translateZ(0)
 }
 

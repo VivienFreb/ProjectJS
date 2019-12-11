@@ -8,7 +8,7 @@ class Carousel {
      * @param {Object} options.visible  Nbr de posts visibles
      */
     constructor (element, options = {}){
-        console.log("Hello.");
+        console.log("Ajout d'un carousel.");
         this.element = element;
         this.options = Object.assign({},{
             toScroll: 0,
@@ -61,6 +61,13 @@ class Carousel {
     }
 
     goToItem(index){
+        console.log('index' , index);
+        console.log('this.item.length' , this.items.length);
+        if(index < 0){
+            index = this.items.length - this.options.visible
+        }else if(index >= this.items.length){
+            index = 0;
+        }
         let translateX = index * (-100 / this.items.length);
         this.container.style.transform = 'translate3d(' + translateX + '%, 0, 0)' // Gère la partie changement d'images
         this.currentItem = index;
@@ -82,9 +89,8 @@ document.addEventListener('DOMContentLoaded', function(){
     new Carousel(document.querySelector('#carousel0'), {
         toScroll: 1,
         visible: 3
-    })
+    });
     new Carousel(document.querySelector('#carousel1'), {
-        toScroll: 1,
-        visible: 3
+        toScroll: 1
     })
 });
