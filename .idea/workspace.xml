@@ -61,7 +61,8 @@
       <updated>1574865026587</updated>
       <workItem from="1574865041059" duration="31981000" />
       <workItem from="1575555393290" duration="522000" />
-      <workItem from="1575985377295" duration="3151000" />
+      <workItem from="1575985377295" duration="4663000" />
+      <workItem from="1576077510159" duration="2842000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1574865489736</created>
@@ -154,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575985730481</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Ajout de la structure html/css ainsi que les images d'exemples">
+      <created>1575988570565</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1575988570565</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,6 +196,7 @@
     <MESSAGE value="Limitation sur la sidebar pour qu'elle s'arrête à la fin de sa div" />
     <MESSAGE value="Correction des problèmes liés à la taille des éléments lors d'un reSize" />
     <MESSAGE value="Initial Commit Carousel (Défilement Images)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit Carousel (Défilement Images)" />
+    <MESSAGE value="Ajout de la structure html/css ainsi que les images d'exemples" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout de la structure html/css ainsi que les images d'exemples" />
   </component>
 </project>
